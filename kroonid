@@ -1,0 +1,13 @@
+<?php
+
+    if( isset($argv[1]) ) {
+        $eek = $argv[1];
+        echo "eurodes: " . $eek / 15.6455;
+    }
+
+    else {
+        echo "Sisesta kroonid";
+    }
+
+    echo "\n";
+?>
