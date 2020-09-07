@@ -2,12 +2,10 @@
 
     if( isset($argv[1]) ) {
         $eek = $argv[1];
-        echo "eurodes: " . $eek / 15.6455;
+    } else {
+        $eek = readline("Sisesta kroonid: ");
     }
 
-    else {
-        echo "Sisesta kroonid";
-    }
-
+    echo "Eurodes: " . $eek / 15.6455;
     echo "\n";
 ?>
